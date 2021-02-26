@@ -220,7 +220,7 @@
     <Compile Include="Helpers\Loggable.cs" />
     <Compile Include="Helpers\SingleThreaded.cs" />
     <Compile Include="Helpers\SynchronizationContextAwaiter.cs" />
-    <Compile Include="My\FindTodayPage.cs" />
+    <Compile Include="My\TodayPageFinder.cs" />
     <Compile Include="UI\FormTextBox.cs">
       <SubType>Component</SubType>
     </Compile>

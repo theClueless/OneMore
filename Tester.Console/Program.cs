@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Schema;
 using River.OneMoreAddIn;
+using River.OneMoreAddIn.My;
 
 namespace Tester.Console
 {

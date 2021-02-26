@@ -2,6 +2,8 @@
 // Copyright © 2019 Steven M Cohn.  All rights reserved.
 //************************************************************************************************
 
+using River.OneMoreAddIn.My;
+
 namespace River.OneMoreAddIn
 {
 	using River.OneMoreAddIn.Commands;
@@ -15,6 +17,11 @@ namespace River.OneMoreAddIn
 			logger.WriteLine("defining hotkeys");
 
 			HotkeyManager.Initialize();
+
+			// Mine
+            HotkeyManager.RegisterHotKey(() => new TodayPageFinder().Find(), Keys.P, Hotmods.Alt);
+
+			//
 
 			HotkeyManager.RegisterHotKey(async () => await AddFootnoteCmd(null),
 				Keys.F, Hotmods.ControlAlt);
