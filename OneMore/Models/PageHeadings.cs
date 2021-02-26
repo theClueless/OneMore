@@ -12,7 +12,7 @@ namespace River.OneMoreAddIn.Models
 	using System.Xml.Linq;
 
 
-	internal partial class Page
+	public partial class Page
 	{
 		private List<Style> quickStyles;
 		private List<Style> customStyles;

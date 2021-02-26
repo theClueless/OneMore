@@ -21,7 +21,7 @@ namespace River.OneMoreAddIn.Models
 	/// <summary>
 	/// Wraps a page with helper methods
 	/// </summary>
-	internal partial class Page
+	public partial class Page
 	{
 
 		// Page meta to keep track of rotating highlighter index
